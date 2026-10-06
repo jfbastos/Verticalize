@@ -2,6 +2,9 @@
 
 App Android para organizar os estudos para concursos públicos a partir do **edital verticalizado**: o conteúdo do edital quebrado em tópicos, com o progresso de cada um e o registro das horas estudadas.
 
+> [!IMPORTANT]
+> O app foi feito e otimizado para uso em tablets ou telas maiores.
+
 ## Proposta de criação do projeto
 
 Projeto criado para estudo de implementação do zero utilizando Claude Code. Utilizado o pattern AI Assisted Development (AIAD)
