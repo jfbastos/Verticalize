@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Edital "verticalizado": uma folha com a lista de tópicos em coluna, os dois primeiros já
+    estudados (marcados) e o último pendente. Tudo dentro da zona segura de 66dp do ícone adaptativo.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Folha -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M40,30h28a5,5 0,0 1,5 5v38a5,5 0,0 1,-5 5h-28a5,5 0,0 1,-5 -5v-38a5,5 0,0 1,5 -5z" />
+
+    <!-- Tópico 1: concluído -->
+    <path
+        android:fillColor="#FF3D4FD0"
+        android:pathData="M43.5,41.5m-4.5,0a4.5,4.5 0,1 1,9 0a4.5,4.5 0,1 1,-9 0" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M41.4,41.6l1.5,1.5l3,-3.1"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:fillColor="#FFBAC3FF"
+        android:pathData="M53.75,39.75h13.5a1.75,1.75 0,0 1,0 3.5h-13.5a1.75,1.75 0,0 1,0 -3.5z" />
+
+    <!-- Tópico 2: concluído -->
+    <path
+        android:fillColor="#FF3D4FD0"
+        android:pathData="M43.5,54m-4.5,0a4.5,4.5 0,1 1,9 0a4.5,4.5 0,1 1,-9 0" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M41.4,54.1l1.5,1.5l3,-3.1"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:fillColor="#FFBAC3FF"
+        android:pathData="M53.75,52.25h10a1.75,1.75 0,0 1,0 3.5h-10a1.75,1.75 0,0 1,0 -3.5z" />
+
+    <!-- Tópico 3: pendente -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M43.5,66.5m-3.75,0a3.75,3.75 0,1 1,7.5 0a3.75,3.75 0,1 1,-7.5 0"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FF777680" />
+    <path
+        android:fillColor="#FFC7C5D0"
+        android:pathData="M53.75,64.75h12a1.75,1.75 0,0 1,0 3.5h-12a1.75,1.75 0,0 1,0 -3.5z" />
+</vector>

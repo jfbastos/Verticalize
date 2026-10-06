@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tamanho fixo: uma faixa fina de 1 célula de altura, sem redimensionamento. -->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="200dp"
+    android:minHeight="40dp"
+    android:targetCellWidth="3"
+    android:targetCellHeight="1"
+    android:resizeMode="none"
+    android:widgetCategory="home_screen"
+    android:initialLayout="@layout/estudo_timer_widget_loading"
+    android:previewImage="@mipmap/ic_launcher"
+    android:description="@string/estudo_timer_widget_descricao" />

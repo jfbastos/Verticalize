@@ -1,0 +1,328 @@
+<resources>
+    <string name="app_name">Verticalize</string>
+
+    <string name="concurso_list_title">Meus concursos</string>
+    <string name="concurso_fab_add_cd">Cadastrar concurso</string>
+    <string name="concurso_dialog_title_new">Novo concurso</string>
+    <string name="concurso_dialog_title_edit">Editar concurso</string>
+    <string name="empty_state_message">Nenhum concurso cadastrado ainda</string>
+    <string name="concurso_delete_confirmation_title">Excluir concurso?</string>
+    <string name="concurso_delete_confirmation_message">Os conteúdos e os registros de estudo deste concurso também serão excluídos. Essa ação não pode ser desfeita.</string>
+    <string name="concurso_detail_expand_cd">Expandir detalhes</string>
+    <string name="concurso_detail_collapse_cd">Recolher detalhes</string>
+    <string name="concurso_detail_detalhes_title">Detalhes</string>
+    <string name="concurso_detail_eixos_title">Progresso por eixo</string>
+    <string name="eixo_label_format">Eixo %1$d</string>
+    <string name="cd_nav_back">Voltar</string>
+    <string name="cd_expandir_grupo">Expandir grupo</string>
+    <string name="cd_recolher_grupo">Recolher grupo</string>
+    <string name="concurso_detail_eixos_empty_message">Nenhum conteúdo com eixo definido ainda</string>
+
+    <string name="label_nome">Nome</string>
+    <string name="label_nivel">Nível</string>
+    <string name="nivel_medio">Médio</string>
+    <string name="nivel_superior">Superior</string>
+    <string name="label_data_prova">Data da prova</string>
+    <string name="label_valor_inscricao">Valor da inscrição</string>
+    <string name="label_banca">Banca</string>
+
+    <string name="action_save">Salvar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_confirm">Confirmar</string>
+    <string name="action_delete">Excluir</string>
+    <string name="action_edit">Editar</string>
+    <string name="cd_calendar_icon">Selecionar data</string>
+
+    <string name="error_unknown">Não foi possível salvar o concurso</string>
+    <string name="error_not_found">Concurso não encontrado</string>
+
+    <string name="conteudo_fab_add_cd">Cadastrar conteúdo</string>
+    <string name="conteudo_dialog_title_new">Novo conteúdo</string>
+    <string name="conteudo_dialog_title_edit">Editar conteúdo</string>
+    <string name="conteudo_empty_state_message">Nenhum conteúdo cadastrado ainda</string>
+    <string name="bloco_label_format">Bloco %1$d</string>
+    <string name="label_materia">Matéria</string>
+    <string name="label_concurso">Concurso</string>
+    <string name="label_descricao">Descrição</string>
+    <string name="label_eixo">Eixo</string>
+    <string name="label_bloco">Bloco</string>
+    <string name="label_prioridade">Prioridade</string>
+    <string name="prioridade_alta">Alta</string>
+    <string name="prioridade_media">Média</string>
+    <string name="prioridade_baixa">Baixa</string>
+    <string name="prioridade_opcional">Opcional</string>
+    <string name="label_quantidade_aulas">Quantidade de aulas</string>
+    <string name="label_tempo_medio_aula">Tempo médio das aulas (min)</string>
+    <string name="label_data_ultima_revisao">Data da última revisão</string>
+    <string name="label_quantidade_questoes">Questões realizadas</string>
+    <string name="conteudo_horas_aula_format">%1$s de aula</string>
+    <string name="conteudo_ultima_revisao_format">Última revisão: %1$s</string>
+    <string name="conteudo_questoes_format">Questões realizadas: %1$d</string>
+
+    <string name="conteudo_filtro_cd">Filtrar conteúdos</string>
+    <string name="conteudo_filtro_titulo">Filtrar conteúdos</string>
+    <string name="conteudo_filtro_limpar">Limpar filtros</string>
+    <string name="conteudo_empty_filtro_message">Nenhum conteúdo encontrado com esse filtro</string>
+
+    <string name="conteudo_ordenacao_cd">Ordenar conteúdos</string>
+    <string name="conteudo_ordenacao_titulo">Ordenar por</string>
+    <string name="conteudo_ordenacao_padrao">Padrão</string>
+    <string name="conteudo_ordenacao_prioridade_asc">Prioridade (mais alta primeiro)</string>
+    <string name="conteudo_ordenacao_prioridade_desc">Prioridade (mais baixa primeiro)</string>
+    <string name="conteudo_ordenacao_eixo_asc">Eixo (crescente)</string>
+    <string name="conteudo_ordenacao_eixo_desc">Eixo (decrescente)</string>
+    <string name="conteudo_ordenacao_bloco_asc">Bloco (crescente)</string>
+    <string name="conteudo_ordenacao_bloco_desc">Bloco (decrescente)</string>
+    <string name="conteudo_ordenacao_revisao_asc">Última revisão (mais antiga primeiro)</string>
+    <string name="conteudo_ordenacao_revisao_desc">Última revisão (mais recente primeiro)</string>
+    <string name="conteudo_ordenacao_tempo_aula_asc">Tempo total de aulas (crescente)</string>
+    <string name="conteudo_ordenacao_tempo_aula_desc">Tempo total de aulas (decrescente)</string>
+
+    <string name="conteudo_agrupamento_titulo">Agrupar por</string>
+    <string name="conteudo_agrupamento_nenhum">Nenhum</string>
+    <string name="conteudo_agrupamento_eixo">Eixo</string>
+    <string name="conteudo_agrupamento_bloco">Bloco</string>
+    <string name="conteudo_agrupamento_materia">Matéria</string>
+    <string name="conteudo_grupo_sem_eixo">Sem eixo</string>
+    <string name="conteudo_grupo_sem_bloco">Sem bloco</string>
+    <string name="conteudo_grupo_sem_materia">Sem matéria</string>
+
+    <string name="concurso_detail_tab_conteudos">Conteúdos</string>
+    <string name="concurso_detail_tab_horas_estudo">Horas de estudo</string>
+
+    <string name="label_data">Data</string>
+
+    <string name="registro_estudo_fab_cd">Registrar horas de estudo</string>
+    <string name="registro_estudo_dialog_title">Registrar horas de estudo</string>
+    <string name="registro_estudo_dialog_title_edit">Editar horas de estudo</string>
+    <string name="registro_estudo_hora_inicio_label">Hora início</string>
+    <string name="registro_estudo_hora_fim_label">Hora fim</string>
+    <string name="registro_estudo_empty_state_message">Nenhum registro de estudo cadastrado ainda</string>
+    <string name="registro_estudo_delete_confirmation_title">Excluir registro?</string>
+    <string name="registro_estudo_delete_confirmation_message">Essa ação não pode ser desfeita.</string>
+    <string name="registro_estudo_view_lista">Lista</string>
+    <string name="registro_estudo_view_calendario">Calendário</string>
+    <string name="registro_estudo_calendario_mes_anterior_cd">Mês anterior</string>
+    <string name="registro_estudo_calendario_proximo_mes_cd">Próximo mês</string>
+
+    <string name="registro_estudo_opcao_titulo">Como você quer registrar?</string>
+    <string name="registro_estudo_opcao_manual_titulo">Registrar manualmente</string>
+    <string name="registro_estudo_opcao_manual_subtitulo">Informe matéria, data e horário diretamente</string>
+    <string name="registro_estudo_opcao_cronometro_titulo">Iniciar cronômetro</string>
+    <string name="registro_estudo_opcao_cronometro_subtitulo">Conta o tempo de estudo até você parar</string>
+
+    <string name="estudo_timer_dialog_titulo">Iniciar cronômetro</string>
+    <string name="estudo_timer_dialog_aviso">Uma notificação vai acompanhar a contagem, mesmo com o app fechado.</string>
+    <string name="estudo_timer_acao_iniciar">Iniciar</string>
+    <string name="estudo_timer_acao_pausar">Pausar</string>
+    <string name="estudo_timer_acao_retomar">Retomar</string>
+    <string name="estudo_timer_acao_registrar">Registrar</string>
+    <string name="estudo_timer_acao_descartar">Descartar</string>
+    <string name="estudo_timer_card_em_andamento">Em andamento</string>
+    <string name="estudo_timer_card_pausado">Pausado</string>
+    <string name="estudo_timer_aviso_outro_concurso">Há um cronômetro em andamento em outro concurso.</string>
+    <string name="estudo_timer_erro_ja_em_andamento">Já existe um cronômetro em andamento. Pare-o antes de iniciar outro.</string>
+    <string name="estudo_timer_notificacao_titulo">Cronômetro de estudo</string>
+    <string name="estudo_timer_notificacao_em_andamento">Contando o tempo de estudo…</string>
+    <string name="estudo_timer_notificacao_pausado_format">Pausado • %1$s</string>
+    <string name="estudo_timer_canal_nome">Cronômetro de estudo</string>
+    <string name="estudo_timer_canal_descricao">Notificação persistente enquanto o cronômetro de estudo está rodando.</string>
+
+    <string name="estudo_timer_widget_nome">Cronômetro de estudo</string>
+    <string name="estudo_timer_widget_descricao">Pausar, retomar ou registrar o cronômetro de estudo direto da tela inicial.</string>
+    <string name="estudo_timer_widget_nenhum_em_andamento">Iniciar estudos</string>
+    <string name="estudo_timer_widget_em_andamento_desde_format">Em andamento desde %1$s</string>
+    <string name="estudo_timer_widget_sem_concursos">Nenhum concurso cadastrado ainda</string>
+
+    <string name="percentual_format">%1$d%%</string>
+    <string name="concurso_fab_extended_label">Novo concurso</string>
+    <string name="conteudo_fab_extended_label">Novo conteúdo</string>
+    <string name="registro_estudo_fab_extended_label">Registrar horas</string>
+    <string name="empty_state_hint">Toque em \"Novo concurso\" para começar.</string>
+    <string name="conteudo_empty_state_hint">Toque em \"Novo conteúdo\" para adicionar o primeiro.</string>
+    <string name="registro_estudo_empty_state_hint">Toque em \"Registrar horas\" para anotar seu estudo.</string>
+    <string name="concurso_horas_estudadas_format">%1$dh estudadas</string>
+    <string name="concurso_stat_horas_estudadas">Horas estudadas</string>
+    <string name="concurso_stat_total_horas_aula">Total de horas de aula</string>
+    <string name="concurso_stat_horas_assistidas">Horas de aula assistidas</string>
+    <string name="concurso_stat_data_prova">Prova</string>
+    <string name="concurso_data_prova_a_definir">A definir</string>
+    <string name="concurso_data_prova_remover_cd">Remover data da prova</string>
+    <string name="concurso_prova_hoje">É hoje!</string>
+    <plurals name="concurso_dias_restantes_format">
+        <item quantity="one">%1$d dia</item>
+        <item quantity="other">%1$d dias</item>
+    </plurals>
+    <plurals name="concurso_semanas_restantes_format">
+        <item quantity="one">%1$d semana</item>
+        <item quantity="other">%1$d semanas</item>
+    </plurals>
+    <string name="conteudo_section_title">Conteúdos</string>
+    <string name="conteudo_concluido_label">Concluído</string>
+    <plurals name="conteudo_count_format">
+        <item quantity="one">%1$d item</item>
+        <item quantity="other">%1$d itens</item>
+    </plurals>
+
+    <string name="conteudo_detalhe_title">Detalhes do conteúdo</string>
+    <string name="conteudo_detalhe_edit_cd">Editar conteúdo</string>
+    <string name="conteudo_detalhe_tempo_medio">Tempo médio por aula</string>
+    <string name="conteudo_detalhe_tempo_total">Tempo total de aulas</string>
+    <string name="conteudo_detalhe_minutos_format">%1$d min</string>
+    <string name="conteudo_pendente_label">Pendente</string>
+    <string name="label_situacao">Situação</string>
+    <string name="valor_nao_informado">—</string>
+    <string name="action_close">Fechar</string>
+
+    <string name="concurso_list_more_cd">Mais opções</string>
+    <string name="concurso_import_menu">Importar concursos</string>
+    <string name="concurso_export_menu">Exportar concursos</string>
+
+    <string name="conta_entrar_cd">Entrar com conta Google</string>
+    <string name="conta_menu_cd">Conta Google</string>
+    <string name="conta_entrando_cd">Entrando…</string>
+    <string name="conta_sair">Sair da conta</string>
+    <string name="conta_login_sucesso_format">Conectado como %1$s</string>
+    <string name="conta_login_sucesso">Conectado com sua conta Google</string>
+    <string name="conta_logout_sucesso">Você saiu da sua conta</string>
+    <string name="auth_error_sem_conta">Nenhuma conta Google encontrada no aparelho</string>
+    <string name="auth_error_sem_conexao">Sem conexão com a internet. Tente novamente.</string>
+    <string name="sync_baixou_da_nuvem">Seus dados foram baixados da nuvem</string>
+    <string name="sync_enviou_para_nuvem">Seus dados foram salvos na nuvem</string>
+    <string name="sync_error_falha_nuvem">Não foi possível sincronizar com a nuvem. Tentaremos de novo na próxima vez que o app abrir.</string>
+    <string name="sync_error_falha_local">Não foi possível sincronizar os dados deste aparelho</string>
+    <string name="sync_error_dados_invalidos">Os dados salvos na nuvem estão em um formato inválido</string>
+    <string name="sync_conflito_titulo">Dados diferentes na nuvem</string>
+    <string name="sync_conflito_mensagem">Esta conta já tem dados salvos na nuvem, diferentes dos deste aparelho. Qual você quer manter? O outro será substituído.</string>
+    <string name="sync_conflito_nuvem">Nuvem</string>
+    <string name="sync_conflito_nuvem_data_format">Nuvem (salvo em %1$s)</string>
+    <string name="sync_conflito_aparelho">Este aparelho</string>
+    <string name="sync_conflito_resumo_format">%1$d concursos • %2$d conteúdos • %3$d horários de estudo</string>
+    <string name="sync_conflito_usar_nuvem">Usar dados da nuvem</string>
+    <string name="sync_conflito_manter_aparelho">Manter deste aparelho</string>
+    <string name="auth_error_nao_configurado">Login com Google ainda não configurado no app</string>
+    <string name="auth_error_desconhecido">Não foi possível entrar com a conta Google</string>
+
+    <string name="concurso_detail_more_cd">Mais opções</string>
+    <string name="concurso_detail_export_menu">Exportar concurso</string>
+    <string name="concurso_detail_agrupar_menu">Agrupar conteúdos</string>
+    <string name="export_success_format">Exportação concluída. Concursos: %1$d • Conteúdos: %2$d • Horários: %3$d</string>
+    <string name="export_concurso_success_format">Concurso exportado. Conteúdos: %1$d • Horários: %2$d</string>
+    <string name="export_error_sem_dados">Não há concursos para exportar.</string>
+    <string name="export_error_falha_ler">Não foi possível ler os dados para exportar.</string>
+    <string name="export_error_falha_gravar">Não foi possível salvar o arquivo.</string>
+
+    <string name="import_format_title">Importar de um arquivo .txt</string>
+    <string name="import_format_intro">Escolha um arquivo de texto neste formato (é o mesmo que o app gera ao exportar). Você pode ter vários concursos no mesmo arquivo, cada um com sua seção [CONCURSO].</string>
+    <string name="import_format_example" translatable="false">[CONCURSO]\nnome: TRT 2ª Região\nnivel: superior\ndata_prova: 15/03/2027\nbanca: FCC\nvalor_inscricao: 120,00\n\n[CONTEUDOS]\nmateria;descricao;eixo;bloco;aulas;min_por_aula;concluido;ultima_revisao;questoes\nDireito Const.;Princípios;1;1;5;50;nao;;0</string>
+    <string name="import_format_columns">Só o nome, o nível (médio ou superior) e a data da prova são obrigatórios no concurso. Em cada conteúdo, só a descrição é obrigatória; separe os campos com ; e use dd/mm/aaaa nas datas. Se quiser, acrescente um bloco [ESTUDOS] com as linhas data;hora_inicio;hora_fim;materia (horas em hh:mm) para importar os horários de estudo. Itens que já existem são pulados e nada que você já cadastrou é alterado.</string>
+    <string name="import_format_pick">Escolher arquivo</string>
+
+    <string name="import_title">Importar</string>
+    <string name="import_loading">Lendo o arquivo…</string>
+    <string name="import_action_import">Importar</string>
+    <string name="import_action_done">Concluir</string>
+    <string name="import_action_back">Voltar</string>
+
+    <string name="import_resumo_concursos_novos">Concursos novos</string>
+    <string name="import_resumo_concursos_existentes">Concursos já cadastrados</string>
+    <string name="import_resumo_conteudos_novos">Conteúdos novos</string>
+    <string name="import_resumo_conteudos_duplicados">Conteúdos já cadastrados</string>
+    <string name="import_nada_novo">Não há nada novo para importar: tudo neste arquivo já está cadastrado.</string>
+    <string name="import_badge_novo">Novo</string>
+    <string name="import_badge_existente">Já cadastrado</string>
+    <plurals name="import_conteudos_novos_format">
+        <item quantity="one">%1$d conteúdo novo</item>
+        <item quantity="other">%1$d conteúdos novos</item>
+    </plurals>
+    <plurals name="import_conteudos_duplicados_format">
+        <item quantity="one">%1$d já cadastrado</item>
+        <item quantity="other">%1$d já cadastrados</item>
+    </plurals>
+    <string name="import_section_concursos">Concursos no arquivo</string>
+    <string name="import_section_erros">Linhas ignoradas</string>
+    <string name="import_linha_format">Linha %1$d</string>
+
+    <string name="import_concluido_title">Importação concluída</string>
+    <plurals name="import_resultado_concursos_format">
+        <item quantity="one">%1$d concurso criado</item>
+        <item quantity="other">%1$d concursos criados</item>
+    </plurals>
+    <plurals name="import_resultado_conteudos_format">
+        <item quantity="one">%1$d conteúdo adicionado</item>
+        <item quantity="other">%1$d conteúdos adicionados</item>
+    </plurals>
+    <string name="import_error_aplicar">Não foi possível importar. Nenhum dado foi alterado.</string>
+
+    <string name="import_file_error_ilegivel">Não foi possível ler o arquivo.</string>
+    <string name="import_file_error_muito_grande">O arquivo é grande demais (máximo de 2 MB).</string>
+    <string name="import_file_error_vazio">O arquivo está vazio.</string>
+    <string name="import_file_error_nenhum_concurso">Nenhum concurso válido foi encontrado no arquivo.</string>
+    <string name="import_file_error_falha_analise">Não foi possível analisar o arquivo.</string>
+
+    <string name="import_line_nome_obrigatorio">Informe o nome do concurso.</string>
+    <string name="import_line_nivel_obrigatorio">Informe o nível do concurso (médio ou superior).</string>
+    <string name="import_line_nivel_invalido">Nível inválido. Use médio ou superior.</string>
+    <string name="import_line_data_prova_invalida">Data da prova inválida. Use o formato dd/mm/aaaa.</string>
+    <string name="import_line_valor_inscricao_invalido">Valor da inscrição inválido. Exemplo: 120,00.</string>
+    <string name="import_line_chave_desconhecida">Campo desconhecido na seção do concurso.</string>
+    <string name="import_line_linha_invalida">Linha inválida. Use o formato chave: valor.</string>
+    <string name="import_line_fora_de_secao">Texto fora de uma seção. Comece o arquivo com [CONCURSO].</string>
+    <string name="import_line_secao_desconhecida">Seção desconhecida. Use [CONCURSO] ou [CONTEUDOS].</string>
+    <string name="import_line_conteudo_sem_concurso">A seção [CONTEUDOS] precisa vir depois de um [CONCURSO].</string>
+    <string name="import_line_cabecalho_sem_descricao">O cabeçalho das colunas precisa incluir a coluna descricao.</string>
+    <string name="import_line_muitos_campos">Campos demais nesta linha. Não use ; dentro do texto.</string>
+    <string name="import_line_descricao_obrigatoria">A descrição do conteúdo é obrigatória.</string>
+    <string name="import_line_eixo_invalido">Eixo inválido. Use um número inteiro a partir de 1.</string>
+    <string name="import_line_bloco_invalido">Bloco inválido. Use um número inteiro a partir de 1.</string>
+    <string name="import_line_aulas_invalidas">Quantidade de aulas inválida.</string>
+    <string name="import_line_minutos_invalidos">Tempo por aula inválido (em minutos).</string>
+    <string name="import_line_concluido_invalido">Valor de \"concluído\" inválido. Use sim ou nao.</string>
+    <string name="import_line_revisao_invalida">Data da última revisão inválida. Use dd/mm/aaaa.</string>
+    <string name="import_line_questoes_invalidas">Quantidade de questões inválida.</string>
+    <string name="import_line_prioridade_invalida">Prioridade inválida. Use alta, média, baixa ou opcional.</string>
+    <string name="import_line_estudo_sem_concurso">A seção [ESTUDOS] precisa vir depois de um [CONCURSO].</string>
+    <string name="import_line_cabecalho_estudo_incompleto">O cabeçalho de [ESTUDOS] precisa ter as colunas data, hora_inicio, hora_fim e materia.</string>
+    <string name="import_line_estudo_materia_obrigatoria">A matéria do horário de estudo é obrigatória.</string>
+    <string name="import_line_estudo_data_invalida">Data do estudo inválida. Use o formato dd/mm/aaaa.</string>
+    <string name="import_line_estudo_hora_inicio_invalida">Hora de início inválida. Use hh:mm (00:00 a 23:59).</string>
+    <string name="import_line_estudo_hora_fim_invalida">Hora de fim inválida. Use hh:mm (00:00 a 23:59).</string>
+    <string name="import_line_estudo_intervalo_invalido">A hora de fim precisa ser depois da hora de início.</string>
+
+    <string name="import_resumo_estudos_novos">Horários de estudo novos</string>
+    <string name="import_resumo_estudos_duplicados">Horários já cadastrados</string>
+    <plurals name="import_estudos_novos_format">
+        <item quantity="one">%1$d horário de estudo</item>
+        <item quantity="other">%1$d horários de estudo</item>
+    </plurals>
+    <plurals name="import_resultado_estudos_format">
+        <item quantity="one">%1$d horário de estudo adicionado</item>
+        <item quantity="other">%1$d horários de estudo adicionados</item>
+    </plurals>
+
+    <!-- Seleção múltipla (detalhes do concurso) -->
+    <plurals name="selecao_count_format">
+        <item quantity="one">%1$d selecionado</item>
+        <item quantity="other">%1$d selecionados</item>
+    </plurals>
+    <string name="selecao_cancelar_cd">Cancelar seleção</string>
+    <string name="selecao_selecionar_todos_cd">Selecionar todos</string>
+    <string name="selecao_excluir_cd">Excluir selecionados</string>
+    <string name="selecao_excluir_message">Essa ação não pode ser desfeita.</string>
+    <plurals name="conteudo_excluir_selecionados_title">
+        <item quantity="one">Excluir %1$d conteúdo?</item>
+        <item quantity="other">Excluir %1$d conteúdos?</item>
+    </plurals>
+    <plurals name="conteudo_excluidos_format">
+        <item quantity="one">%1$d conteúdo excluído</item>
+        <item quantity="other">%1$d conteúdos excluídos</item>
+    </plurals>
+    <plurals name="registro_estudo_excluir_selecionados_title">
+        <item quantity="one">Excluir %1$d registro de estudo?</item>
+        <item quantity="other">Excluir %1$d registros de estudo?</item>
+    </plurals>
+    <plurals name="registro_estudo_excluidos_format">
+        <item quantity="one">%1$d registro de estudo excluído</item>
+        <item quantity="other">%1$d registros de estudo excluídos</item>
+    </plurals>
+</resources>

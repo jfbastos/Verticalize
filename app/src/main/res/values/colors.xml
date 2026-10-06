@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Mesmo valor de BackgroundLight em ui/theme/Color.kt; evita flash de cor errada antes do Compose desenhar. -->
+    <color name="window_background">#FFFBF8FF</color>
+</resources>

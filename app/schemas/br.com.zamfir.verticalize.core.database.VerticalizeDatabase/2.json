@@ -1,0 +1,166 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 2,
+    "identityHash": "b60366fe0c72ddfaf36c00ca53569994",
+    "entities": [
+      {
+        "tableName": "concursos",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `nome` TEXT NOT NULL, `nivel` TEXT NOT NULL, `dataProva` INTEGER NOT NULL, `valorInscricaoCentavos` INTEGER NOT NULL, `banca` TEXT NOT NULL, `horasEstudadas` INTEGER NOT NULL, `percentualCompletude` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "nome",
+            "columnName": "nome",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "nivel",
+            "columnName": "nivel",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "dataProva",
+            "columnName": "dataProva",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "valorInscricaoCentavos",
+            "columnName": "valorInscricaoCentavos",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "banca",
+            "columnName": "banca",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "horasEstudadas",
+            "columnName": "horasEstudadas",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "percentualCompletude",
+            "columnName": "percentualCompletude",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "conteudos",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `concursoId` INTEGER NOT NULL, `nome` TEXT NOT NULL, `eixo` INTEGER, `bloco` INTEGER, `quantidadeAulas` INTEGER NOT NULL, `tempoMedioAulaMinutos` INTEGER NOT NULL, `concluido` INTEGER NOT NULL, `dataUltimaRevisao` INTEGER, `quantidadeQuestoesRealizadas` INTEGER NOT NULL, FOREIGN KEY(`concursoId`) REFERENCES `concursos`(`id`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "concursoId",
+            "columnName": "concursoId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "nome",
+            "columnName": "nome",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "eixo",
+            "columnName": "eixo",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "bloco",
+            "columnName": "bloco",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "quantidadeAulas",
+            "columnName": "quantidadeAulas",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "tempoMedioAulaMinutos",
+            "columnName": "tempoMedioAulaMinutos",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "concluido",
+            "columnName": "concluido",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "dataUltimaRevisao",
+            "columnName": "dataUltimaRevisao",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "quantidadeQuestoesRealizadas",
+            "columnName": "quantidadeQuestoesRealizadas",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_conteudos_concursoId",
+            "unique": false,
+            "columnNames": [
+              "concursoId"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_conteudos_concursoId` ON `${TABLE_NAME}` (`concursoId`)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "table": "concursos",
+            "onDelete": "CASCADE",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "concursoId"
+            ],
+            "referencedColumns": [
+              "id"
+            ]
+          }
+        ]
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'b60366fe0c72ddfaf36c00ca53569994')"
+    ]
+  }
+}

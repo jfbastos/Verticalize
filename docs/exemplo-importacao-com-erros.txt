@@ -1,0 +1,38 @@
+# Arquivo com erros propositais, para ver a lista "Linhas ignoradas" na pré-visualização.
+# O concurso e os conteúdos válidos são importados normalmente; as linhas com erro são puladas.
+
+[CONCURSO]
+nome: Concurso de Teste
+nivel: superior
+data_prova: 10/10/2027
+valor_inscricao: 99,90
+
+[CONTEUDOS]
+Direito Penal;Teoria do crime;1;1;4;50;nao;;0
+Direito Penal;Eixo inválido;zero;1;4;50;nao;;0
+Direito Penal;;1;1;4;50;nao;;0
+Direito Penal;Data de revisão inválida;1;1;4;50;sim;31/02/2026;0
+Direito Penal;Concluído inválido;1;1;4;50;talvez;;0
+Direito Penal;Prioridade inválida;1;1;4;50;nao;;0;urgente
+Direito Penal;Campos demais;1;1;4;50;nao;;0;;sobrou
+
+[CONCURSO]
+nome: Concurso com data errada
+nivel: medio
+data_prova: 32/13/2027
+
+[CONTEUDOS]
+Matéria;Este conteúdo é descartado junto com o concurso acima
+
+[CONCURSO]
+nome: Concurso com horários de estudo
+nivel: medio
+data_prova: 01/12/2027
+
+[ESTUDOS]
+data;hora_inicio;hora_fim;materia
+17/09/2026;08:00;10:30;Direito Penal
+18/09/2026;10:00;09:00;Intervalo invertido
+32/09/2026;08:00;09:00;Data inexistente
+19/09/2026;25:00;26:00;Hora inválida
+20/09/2026;08:00;09:00;

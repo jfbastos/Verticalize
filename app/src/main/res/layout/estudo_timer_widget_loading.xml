@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Placeholder exigido pelo AppWidgetProviderInfo; o Glance substitui pelo Content() real assim que carrega. -->
+<ProgressBar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/estudo_timer_widget_loading"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center" />

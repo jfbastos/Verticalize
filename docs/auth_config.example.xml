@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Modelo de app/src/main/res/values/auth_config.xml (que fica fora do Git).
+    Copie para lá e preencha com o ID do cliente OAuth do tipo "Aplicativo da Web" do projeto Firebase:
+    Firebase Console > Authentication > Sign-in method > Google > Configuração do SDK da Web.
+-->
+<resources>
+    <string name="google_web_client_id" translatable="false">SEU_CLIENT_ID.apps.googleusercontent.com</string>
+</resources>

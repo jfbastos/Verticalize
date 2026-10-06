@@ -1,0 +1,35 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Configuração do Firebase (chave de API, IDs do projeto e clientes OAuth)
+google-services.json
+
+# ID do cliente OAuth do Google Sign-In; modelo em docs/auth_config.example.xml
+app/src/main/res/values/auth_config.xml
+
+# Assinatura de release
+*.jks
+*.keystore
+keystore.properties
+
+# Segredos locais
+secrets.properties
+.env
+.env.*
+
+# Caches/arquivos locais de ferramentas
+.kotlin/
+.claude/

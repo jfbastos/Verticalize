@@ -1,0 +1,89 @@
+# Exemplo de arquivo para importar no Verticalize.
+# Linhas que começam com # são comentários. Copie este arquivo para o celular e use o ícone
+# de importar (canto superior direito da lista de concursos).
+#
+# [CONCURSO]  -> um bloco por concurso (nome e nivel são obrigatórios; data_prova e banca são opcionais)
+# [CONTEUDOS] -> uma linha por conteúdo, com os campos separados por ;
+#   materia;descricao;eixo;bloco;aulas;min_por_aula;concluido;ultima_revisao;questoes;prioridade
+#   Só a descrição é obrigatória. concluido: sim ou nao. Datas: dd/mm/aaaa.
+#   prioridade: alta, media, baixa ou opcional (se vazia, fica média).
+# [ESTUDOS]   -> opcional; um horário de estudo por linha: data;hora_inicio;hora_fim;materia
+#   Horas no formato hh:mm (00:00 a 23:59); a hora de fim precisa ser depois da de início.
+
+[CONCURSO]
+nome: BB - Escriturário T.I
+nivel: Médio
+data_prova: 01/01/2027
+banca: 
+valor_inscricao: 0,00
+
+[CONTEUDOS]
+materia;descricao;eixo;bloco;aulas;min_por_aula;concluido;ultima_revisao;questoes;prioridade
+Português;Compreensão de textos;1;1;17;40;nao;;0;baixa
+Português;Gramática;1;1;64;40;nao;;0;baixa
+Inglês;Conhecimento de um vocabulário fundamental e dos aspectos gramaticais básicos para a compreensão de textos;1;2;30;30;nao;;0;baixa
+Matemática;Números inteiros, racionais e reais, problemas de contagem;1;3;12;30;nao;;0;media
+Matemática;Sistema legal de medidas;1;3;0;0;nao;;0;media
+Matemática;Razões e proporções, divisão proporcional, regras de três simples e compostas, porcentagens;1;3;10;30;nao;;0;media
+Matemática;Lógica proposicional;1;3;0;0;nao;;0;media
+Matemática;Noções de conjuntos;1;3;0;0;nao;;0;media
+Matemática;Relações e funções, Funções polinomiais, Funções exponenciais e logarítmicas;1;3;0;0;nao;;0;media
+Matemática;Matrizes;1;3;0;0;nao;;0;media
+Matemática;Determinantes;1;3;0;0;nao;;0;media
+Matemática;Sistemas lineares;1;3;0;0;nao;;0;media
+Matemática;Sequências;1;3;0;0;nao;;0;media
+Matemática;Progressões aritméticas e progressões geométricas;1;3;0;0;nao;;0;media
+Mercado Financeiro;Os bancos na Era Digital: Atualidade, tendências e desafios;1;4;1;32;nao;;0;media
+Mercado Financeiro;Internet banking;1;4;1;38;nao;;0;media
+Mercado Financeiro;Mobile banking;1;4;0;0;nao;;0;media
+Mercado Financeiro;Open banking;1;4;1;35;nao;;0;alta
+Mercado Financeiro;Novos modelos de negócios;1;4;3;35;nao;;0;alta
+Mercado Financeiro;Fintechs, startups e big techs;1;4;1;45;nao;;0;baixa
+Mercado Financeiro;Sistema de bancossombra (Shadow banking);1;4;1;36;nao;;0;alta
+Mercado Financeiro;Funções da moeda;1;4;0;0;nao;;0;alta
+Mercado Financeiro;O dinheiro na era digital: blockchain, bitcoin e demais criptomoedas;1;4;1;17;nao;;0;alta
+Mercado Financeiro;Marketplace;1;4;1;22;nao;;0;alta
+Mercado Financeiro;Correspondentes bancários;1;4;1;9;nao;;0;alta
+Mercado Financeiro;Arranjos de pagamentos;1;4;3;35;nao;;0;alta
+Mercado Financeiro;Sistema de pagamentos instantâneos (PIX);1;4;1;19;nao;;0;alta
+Mercado Financeiro;Segmentação e interações digitais;1;4;0;0;nao;;0;alta
+Mercado Financeiro;Transformação digital no Sistema Financeiro;1;4;1;13;nao;;0;media
+Probabilidade e Estatística;Estatística;2;1;56;30;nao;;0;alta
+Conhecimentos Bancários;Sistema Financeiro Nacional: Estrutura do Sistema Financeiro Nacional. Órgãos normativos e instituições supervisoras, executoras e operadoras;2;2;10;35;nao;;0;alta
+Conhecimentos Bancários;Mercado financeiro e seus desdobramentos (mercados monetário, de crédito, de capitais e cambial);2;2;1;41;nao;;0;alta
+Conhecimentos Bancários;Moeda e política monetária: Políticas monetárias convencionais e não-convencionais (Quantitative Easing). Taxa SELIC e operações compromissadas. O debate sobre os depósitos remunerados dos bancos comerciaisno Banco Central do Brasil;2;2;11;40;nao;;0;alta
+Conhecimentos Bancários;Orçamento público, títulos do Tesouro Nacional e dívida pública;2;2;14;30;nao;;0;alta
+Conhecimentos Bancários;Produtos Bancários: Noções de cartões de crédito e débito, crédito direto ao consumidor, crédito rural, poupança, capitalização, previdência, consórcio, investimentos e seguros;2;2;34;30;nao;;0;alta
+Conhecimentos Bancários;Noções de Mercado de capitais;2;2;14;30;nao;;0;alta
+Conhecimentos Bancários;Noções de Mercado de Câmbio: Instituições autorizadas a operar e operações básica;2;2;17;30;nao;;0;alta
+Conhecimentos Bancários;Regimes de taxas de câmbio fixas, flutuantes e regimes intermediários;2;2;0;0;nao;;0;alta
+Conhecimentos Bancários;Taxas de câmbio nominais e reais;2;2;0;0;nao;;0;alta
+Conhecimentos Bancários;Impactos das taxas de câmbio sobre as exportações e importações;2;2;0;0;nao;;0;alta
+Conhecimentos Bancários;Diferencial de juros interno e externo, prêmios de risco, fluxo de capitais e seus impactos sobre as taxas de câmbio;2;2;0;0;nao;;0;alta
+Conhecimentos Bancários;Dinâmica do Mercado: Operações no mercado interbancário;2;2;2;30;nao;;0;alta
+Conhecimentos Bancários;Mercado bancário: Operações de tesouraria, varejo bancário e recuperação de crédito;2;2;0;0;nao;;0;alta
+Conhecimentos Bancários;Taxas de juros de curto prazo e a curva de juros, taxas de juros nominais e reais;2;2;0;0;nao;;0;alta
+Conhecimentos Bancários;Garantias do Sistema Financeiro Nacional;2;2;7;30;nao;;0;alta
+Conhecimentos Bancários;Crime de lavagem de dinheiro: conceito e etapas. Prevenção e combate ao crime de lavagem de dinheiro: Lei nº 9.613/98 e suas alterações. Circular nº 3.978, de 23 de janeiro de 2020 e Carta Circular nº 4.001, de 29 de janeiro de 2020 e suas alterações;2;2;10;30;nao;;0;alta
+Conhecimentos Bancários;Autorregulação bancária;2;2;3;34;nao;;0;alta
+Conhecimentos Bancários;Sigilo Bancário: Lei Complementar nº 105/2001 e suas alterações;2;2;1;23;nao;;0;alta
+Conhecimentos Bancários;Lei Geral de Proteção de Dados (LGPD): Lei nº 13.709, de 14 de agosto de 2018 e suas 34 alterações;2;2;10;20;nao;;0;alta
+Conhecimentos Bancários;Legislação anticorrupção: Lei nº 12.846/2013 e Decreto nº 11.129/2022;2;2;6;20;nao;;0;alta
+Conhecimentos Bancários;Segurança cibernética: Resolução CMN nº 4.893, de 26 de fevereiro de 2021;2;2;2;30;nao;;0;alta
+Conhecimentos Bancários;Ética aplicada: ética, moral, valores e virtudes. noções de ética empresarial e profissional. A gestão da ética nas empresas públicas e privadas. Código de Ética do Banco do Brasil (disponível no sítio do BB na internet;2;2;2;30;nao;;0;baixa
+Conhecimentos Bancários;Política de Responsabilidade Socioambiental do Banco do Brasil (disponível no sítio do BB na internet);2;2;6;30;nao;;0;alta
+Técnologia da Informação;Aprendizagem de máquina: Fundamentos básicos. Noções de algoritmos de aprendizado supervisionados e não supervisionados. Noções de processamento de linguagem natural;3;1;41;30;nao;;0;media
+Técnologia da Informação;Banco de Dados: Banco de dados NoSQL (conceitos básicos, bancos orientados a grafos, colunas, chave/valor e documentos). MongoDB. linguagem SQL2008. Conceitos de banco de dados e sistemas gerenciadores de bancos de dados (SGBD). Data Warehouse (modelagem conceitual para data warehouses, dados multidimensionais). Modelagem conceitual de dados (a abordagem entidade-relacionamento). Modelo relacional de dados (conceitos básicos, normalização). Postgre-SQL;3;1;14;20;nao;;0;media
+Técnologia da Informação;Big data: Fundamentos. Técnicas de preparação e apresentação de dados;3;1;26;30;nao;;0;baixa
+Técnologia da Informação;Desenvolvimento Mobile: linguagens/frameworks: Java/Kotlin e Swift. React Native 0.59. Sistemas Android api 30 e iOS xCode 10;3;1;14;30;nao;;0;baixa
+Técnologia da Informação;Estrutura de dados e algoritmos: Busca sequencial e busca binária sobre arrays. Ordenação (métodos da bolha, ordenação por seleção, ordenação por inserção), lista encadeada, pilha, fila e noções sobre árvore binária;3;1;10;30;nao;;0;media
+Técnologia da Informação;Java SE 11;3;1;7;30;nao;;0;media
+Técnologia da Informação;Java EE 8;3;1;33;30;nao;;0;media
+Técnologia da Informação;Ferramentas e Linguagens de manipulação de dados: Ansible;3;1;6;30;nao;;0;media
+Técnologia da Informação;React Native;3;1;3;25;nao;;0;media
+Técnologia da Informação;Python;3;1;25;30;nao;;0;media
+Técnologia da Informação;Type;3;1;7;30;nao;;0;media
+
+
+
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Versão monocromática (ícones temáticos do Android 13+): o sistema usa só o alfa e pinta com a
+    cor do tema, então a folha vira contorno e os demais elementos ficam vazados/sólidos.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Folha (contorno) -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M40,31h28a4,4 0,0 1,4 4v38a4,4 0,0 1,-4 4h-28a4,4 0,0 1,-4 -4v-38a4,4 0,0 1,4 -4z"
+        android:strokeWidth="2"
+        android:strokeColor="#FF000000" />
+
+    <!-- Tópicos 1 e 2: concluídos -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M41,41.6l1.9,1.9l3.6,-3.7M41,54.1l1.9,1.9l3.6,-3.7"
+        android:strokeWidth="2"
+        android:strokeColor="#FF000000"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M53.75,39.75h13.5a1.75,1.75 0,0 1,0 3.5h-13.5a1.75,1.75 0,0 1,0 -3.5zM53.75,52.25h10a1.75,1.75 0,0 1,0 3.5h-10a1.75,1.75 0,0 1,0 -3.5z" />
+
+    <!-- Tópico 3: pendente -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M43.5,66.5m-3.25,0a3.25,3.25 0,1 1,6.5 0a3.25,3.25 0,1 1,-6.5 0"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FF000000" />
+    <path
+        android:fillColor="#FF000000"
+        android:fillAlpha="0.5"
+        android:pathData="M53.75,64.75h12a1.75,1.75 0,0 1,0 3.5h-12a1.75,1.75 0,0 1,0 -3.5z" />
+</vector>
